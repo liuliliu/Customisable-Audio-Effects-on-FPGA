@@ -1,0 +1,287 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 16732
+License: Customer
+
+Current time: 	Fri Jun 09 17:11:55 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HUAWEI
+User home directory: C:/Users/HUAWEI
+User working directory: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2020.1
+RDI_DATADIR: D:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/HUAWEI/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/HUAWEI/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/HUAWEI/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/vivado.log
+Vivado journal file location: 	D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/vivado.jou
+Engine tmp dir: 	D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/.Xil/Vivado-16732-LAPTOP-TOFUI26C
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2020.1
+XILINX_SDK: D:/Xilinx/Vitis/2020.1
+XILINX_VITIS: D:/Xilinx/Vitis/2020.1
+XILINX_VIVADO: D:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 999 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\YANLIU\KULeuven\course\master\thesis\Project\overlay_final_v2\overlay_final_v2\overlay_final_v2.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 53 MB. Current time: 6/9/23, 5:11:56 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+77765kb) [00:00:18]
+// [Engine Memory]: 999 MB (+896539kb) [00:00:18]
+// [GUI Memory]: 86 MB (+5400kb) [00:00:18]
+// [GUI Memory]: 93 MB (+3797kb) [00:00:22]
+// [GUI Memory]: 99 MB (+1365kb) [00:00:22]
+// [GUI Memory]: 117 MB (+13111kb) [00:00:23]
+// [GUI Memory]: 123 MB (+133kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  7733 ms.
+// Tcl Message: open_project D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  3678 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1984 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.992 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,165 MB. GUI used memory: 80 MB. Current time: 6/9/23, 5:12:14 PM CEST
+// [Engine Memory]: 1,165 MB (+121521kb) [00:00:31]
+// Project name: overlay_final_v2; location: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bz (cs)
+// [GUI Memory]: 142 MB (+13514kb) [00:00:34]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 159 MB (+10290kb) [00:01:09]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 231 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // af (cs)
+selectMenuItem(PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL, "Write Tcl..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_WRITE_PROJECT_TCL
+// aL (cs): Write Project to Tcl: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Tcl Command: 'write_project_tcl -use_bd_files {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/overlay_final_v2.tcl}'
+// 'p' command handler elapsed time: 7 seconds
+dismissDialog("Write Project to Tcl"); // aL (cs)
+// bz (cs):  Write Project to Tcl : addNotify
+// Tcl Message: write_project_tcl -use_bd_files {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/overlay_final_v2.tcl} 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message:  
+// Tcl Message:  
+// Tcl Message: write_project_tcl: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1269.098 ; gain = 0.000 
+// Elapsed time: 23 seconds
+dismissDialog("Write Project to Tcl"); // bz (cs)
+selectButton("OptionPane.button", "Yes"); // JButton (v, B)

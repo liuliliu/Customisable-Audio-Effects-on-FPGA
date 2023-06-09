@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 14 22:34:27 2023
+# Process ID: 18104
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/impl_1
+# Command line: vivado.exe -log design_2_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_2_wrapper.tcl -notrace
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/impl_1/design_2_wrapper.vdi
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_2_wrapper.tcl -notrace

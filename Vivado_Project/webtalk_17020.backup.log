@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Apr 21 22:13:32 2023
+# Process ID: 17020
+# Current directory: d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_Final
+# Command line: wbtcv.exe -mode batch -source d:/yanliu/kuleuven/course/master/thesis/project/overlay_final/overlay_final.tmp/axi_anf_v1_0_project/AXI_ANF_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_Final/webtalk.log
+# Journal file: d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_Final\webtalk.jou
+#-----------------------------------------------------------
+source d:/yanliu/kuleuven/course/master/thesis/project/overlay_final/overlay_final.tmp/axi_anf_v1_0_project/AXI_ANF_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 21 22:13:32 2023...

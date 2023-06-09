@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 18 12:02:16 2023
+# Process ID: 2508
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1972 D:\YANLIU\KULeuven\course\master\thesis\Project\IP\ip_pitch_shifting_real\tmp_edit_project.xpr
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real/vivado.log
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real/tmp_edit_project.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real/src/pitch_shifting.v:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_pitch_shifting_real/tmp_edit_project.srcs/sources_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 18 14:57:43 2023...

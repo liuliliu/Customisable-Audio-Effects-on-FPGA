@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr  3 18:40:14 2023
+# Process ID: 2840
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_apb_comb
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13264 D:\YANLIU\KULeuven\course\master\thesis\Project\IP\ip_apb_comb\ip_apb_comb.xpr
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_apb_comb/vivado.log
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_apb_comb\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/YANLIU/KULeuven/course/master/thesis/Project/IP/ip_apb_comb/ip_apb_comb.xpr
+update_compile_order -fileset sources_1

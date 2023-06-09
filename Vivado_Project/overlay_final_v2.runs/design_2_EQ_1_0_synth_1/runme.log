@@ -1,0 +1,23 @@
+
+*** Running vivado
+    with args -log design_2_EQ_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_EQ_1_0.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source design_2_EQ_1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/EQ/EQ.srcs/sources_1/new'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_Anf/ip_Anf.srcs/sources_1/new'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_pitch_shifting_real'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_apb_comb/ip_apb_comb.srcs/sources_1/new'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_2_EQ_1_0, cache-ID = 56bbb6b2f5b46a5f.
+INFO: [Common 17-206] Exiting Vivado at Sun May  7 18:07:13 2023...

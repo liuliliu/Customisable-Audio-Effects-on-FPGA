@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue May 23 21:37:38 2023
+# Process ID: 22900
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4616 D:\YANLIU\KULeuven\course\master\thesis\Project\overlay_final_v2\overlay_final_v2\overlay_final_v2.xpr
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/vivado.log
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.srcs/sources_1/bd/design_2/design_2.bd}

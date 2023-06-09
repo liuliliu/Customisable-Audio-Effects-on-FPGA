@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_2_processing_system7_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_axi_iic_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_axi_iic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_rst_ps7_0_50M_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_axi_apb_bridge_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_axi_apb_bridge_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_EQ_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_EQ_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_EQ_2_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_EQ_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_2_EQ_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_2_EQ_1_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_EQ_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_2_EQ_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_2_EQ_3_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_EQ_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_2_EQ_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_2_AXI_lowpass_3_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_lowpass_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_comb_1_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_comb_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_comb_2_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_comb_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_lowpass_2_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_lowpass_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_comb_3_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_comb_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_lowpass_1_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_lowpass_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_ADD_4_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_ADD_4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_comb_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_comb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_lowpass_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_lowpass_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_early_reflection_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_early_reflection_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_Allpass_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_Allpass_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_I2S_Transmitter_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_I2S_Transmitter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_I2S_Receiver_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_I2S_Receiver_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_Buffers_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_Buffers_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_Button_ctrl_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_Button_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_pitch_shift_0_3_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_pitch_shift_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_clk_wiz_0_0_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_2_AXI_ADD_3_0_9_synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/design_2_AXI_ADD_3_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_2_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_2_axi_iic_0_0_synth_1"/>
+		<Parent Id="design_2_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="design_2_axi_apb_bridge_0_0_synth_1"/>
+		<Parent Id="design_2_EQ_0_0_synth_1"/>
+		<Parent Id="design_2_EQ_2_0_synth_1"/>
+		<Parent Id="design_2_EQ_1_0_synth_1"/>
+		<Parent Id="design_2_EQ_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_1_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_2_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_2_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_1_0_synth_1"/>
+		<Parent Id="design_2_AXI_ADD_4_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_early_reflection_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_Allpass_0_0_synth_1"/>
+		<Parent Id="design_2_I2S_Transmitter_0_0_synth_1"/>
+		<Parent Id="design_2_I2S_Receiver_0_0_synth_1"/>
+		<Parent Id="design_2_Buffers_0_0_synth_1"/>
+		<Parent Id="design_2_Button_ctrl_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_pitch_shift_0_3_synth_1"/>
+		<Parent Id="design_2_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_ADD_3_0_9_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_2_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_2_axi_iic_0_0_synth_1"/>
+		<Parent Id="design_2_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="design_2_axi_apb_bridge_0_0_synth_1"/>
+		<Parent Id="design_2_EQ_0_0_synth_1"/>
+		<Parent Id="design_2_EQ_2_0_synth_1"/>
+		<Parent Id="design_2_EQ_1_0_synth_1"/>
+		<Parent Id="design_2_EQ_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_1_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_2_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_2_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_3_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_1_0_synth_1"/>
+		<Parent Id="design_2_AXI_ADD_4_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_comb_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_lowpass_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_early_reflection_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_Allpass_0_0_synth_1"/>
+		<Parent Id="design_2_I2S_Transmitter_0_0_synth_1"/>
+		<Parent Id="design_2_I2S_Receiver_0_0_synth_1"/>
+		<Parent Id="design_2_Buffers_0_0_synth_1"/>
+		<Parent Id="design_2_Button_ctrl_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_pitch_shift_0_3_synth_1"/>
+		<Parent Id="design_2_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_2_AXI_ADD_3_0_9_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

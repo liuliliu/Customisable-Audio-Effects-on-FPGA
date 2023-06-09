@@ -1,0 +1,86 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.675911",
+   "Default View_TopLeft":"759,226",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port audio_i2c -pg 1 -lvl 7 -x 2210 -y 290 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2210 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2210 -y 80 -defaultsOSRD
+preplace port au_bclk -pg 1 -lvl 0 -x -120 -y 440 -defaultsOSRD
+preplace port au_lrclk -pg 1 -lvl 0 -x -120 -y 460 -defaultsOSRD
+preplace port au_adc -pg 1 -lvl 0 -x -120 -y 480 -defaultsOSRD
+preplace port test_bclk -pg 1 -lvl 7 -x 2210 -y 400 -defaultsOSRD
+preplace port test_lrclk -pg 1 -lvl 7 -x 2210 -y 420 -defaultsOSRD
+preplace port test_adc -pg 1 -lvl 7 -x 2210 -y 440 -defaultsOSRD
+preplace port au_dac -pg 1 -lvl 7 -x 2210 -y 460 -defaultsOSRD
+preplace port test_dac -pg 1 -lvl 7 -x 2210 -y 480 -defaultsOSRD
+preplace port led_eq -pg 1 -lvl 7 -x 2210 -y 910 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x -120 -y 980 -defaultsOSRD
+preplace port iBtn1 -pg 1 -lvl 0 -x -120 -y 1040 -defaultsOSRD
+preplace port led_reverb -pg 1 -lvl 7 -x 2210 -y 930 -defaultsOSRD
+preplace port iBtn2 -pg 1 -lvl 0 -x -120 -y 1060 -defaultsOSRD
+preplace port led_pitch_shifting -pg 1 -lvl 7 -x 2210 -y 950 -defaultsOSRD
+preplace port iBtn3 -pg 1 -lvl 0 -x -120 -y 1080 -defaultsOSRD
+preplace port led_anf -pg 1 -lvl 7 -x 2210 -y 1060 -defaultsOSRD
+preplace port iBtn4 -pg 1 -lvl 0 -x -120 -y 1100 -defaultsOSRD
+preplace port au_mclk -pg 1 -lvl 7 -x 2210 -y 580 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 480 -y 110 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 5 -x 1670 -y 310 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 850 -y 280 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 110 -y 340 -defaultsOSRD
+preplace inst axi_apb_bridge_0 -pg 1 -lvl 4 -x 1230 -y 570 -defaultsOSRD
+preplace inst effect -pg 1 -lvl 5 -x 1670 -y 638 -defaultsOSRD
+preplace inst axi_apb_bridge_1 -pg 1 -lvl 4 -x 1230 -y 900 -defaultsOSRD
+preplace inst I2S_Receiver_0 -pg 1 -lvl 4 -x 1230 -y 360 -defaultsOSRD
+preplace inst I2S_Transmitter_0 -pg 1 -lvl 6 -x 2010 -y 220 -defaultsOSRD
+preplace inst Buffers_0 -pg 1 -lvl 6 -x 2010 -y 520 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 6 -x 2010 -y 660 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -100 220 280 220 690 450 1060 480 1400 390 1840
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 -60 230 NJ 230 680
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 5 N 380 700 470 1030 460 1370 230 1830J
+preplace netloc bclk_0_1 1 0 6 NJ 440 NJ 440 NJ 440 1000 210 NJ 210 1850
+preplace netloc lrclk_0_1 1 0 6 NJ 460 NJ 460 NJ 460 1010 220 NJ 220 1820
+preplace netloc sdata_0_1 1 0 6 NJ 480 NJ 480 NJ 480 1040 470 1380J 458 1810J
+preplace netloc I2S_Transmitter_0_sdata 1 5 2 1860 110 2130
+preplace netloc Buffers_0_out1 1 6 1 2130J 400n
+preplace netloc Buffers_0_out2 1 6 1 2140J 420n
+preplace netloc Buffers_0_out3 1 6 1 2150J 440n
+preplace netloc Buffers_0_out4 1 6 1 2160J 460n
+preplace netloc Buffers_0_out5 1 6 1 2170J 480n
+preplace netloc Net 1 0 5 -100J 678 NJ 678 NJ 678 NJ 678 NJ
+preplace netloc iBtn1_1 1 0 5 -90J 698 NJ 698 NJ 698 NJ 698 NJ
+preplace netloc EQ_0_led_test 1 5 2 1830J 910 NJ
+preplace netloc effect_led_test_0 1 5 2 1810J 930 NJ
+preplace netloc iBtn2_0_1 1 0 5 -80J 718 NJ 718 NJ 718 NJ 718 NJ
+preplace netloc effect_led_test_1 1 5 2 1800J 950 NJ
+preplace netloc iBtn3_0_1 1 0 5 -70J 738 NJ 738 NJ 738 NJ 738 NJ
+preplace netloc effect_led_test_2 1 5 2 1790J 1060 NJ
+preplace netloc iBtn4_0_1 1 0 5 -60J 758 NJ 758 NJ 758 NJ 758 NJ
+preplace netloc clk_wiz_0_clk_out1 1 6 1 2150J 580n
+preplace netloc axi_apb_bridge_1_APB_M2 1 4 1 1420 638n
+preplace netloc I2S_Receiver_0_m_axis 1 4 1 1390 360n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 2 N 260 1380J
+preplace netloc axi_apb_bridge_0_APB_M2 1 4 1 1380 558n
+preplace netloc axi_iic_0_IIC 1 5 2 1790J 120 2160J
+preplace netloc axi_apb_bridge_0_APB_M 1 4 1 1380 538n
+preplace netloc APB_s_0_1 1 4 1 1410 618n
+preplace netloc axi_apb_bridge_0_APB_M4 1 4 1 1420 598n
+preplace netloc axi_apb_bridge_0_APB_M3 1 4 1 1420 578n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 1 1050 280n
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 700 120n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 3 1 1020 300n
+preplace netloc processing_system7_0_FIXED_IO 1 2 5 NJ 80 NJ 80 NJ 80 NJ 80 NJ
+preplace netloc EQ_3_m_axis 1 5 1 1800 180n
+preplace netloc processing_system7_0_DDR 1 2 5 NJ 60 NJ 60 NJ 60 NJ 60 NJ
+levelinfo -pg 1 -120 110 480 850 1230 1670 2010 2210
+pagesize -pg 1 -db -bbox -sgen -220 0 2370 1180
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"3",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,63 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.627151",
+   "Default View_TopLeft":"-123,-172",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port s_axis -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port APB_S -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port APB_S1 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port APB_S2 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port m_axis -pg 1 -lvl 6 -x 1330 -y 610 -defaultsOSRD
+preplace port APB_S3 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port APB_s_0 -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port ABP_S_anf -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port iBtn1 -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port led_eq -pg 1 -lvl 6 -x 1330 -y 230 -defaultsOSRD
+preplace port led_reverb -pg 1 -lvl 6 -x 1330 -y 140 -defaultsOSRD
+preplace port iBtn2 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port led_pitch -pg 1 -lvl 6 -x 1330 -y 390 -defaultsOSRD
+preplace port iBtn3 -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace port led_anf -pg 1 -lvl 6 -x 1330 -y 630 -defaultsOSRD
+preplace port iBtn4 -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace inst reverb -pg 1 -lvl 3 -x 710 -y 120 -defaultsOSRD
+preplace inst AXI_pitch_shift_0 -pg 1 -lvl 4 -x 980 -y 380 -defaultsOSRD
+preplace inst EQ -pg 1 -lvl 2 -x 390 -y 200 -defaultsOSRD
+preplace inst AXI_ANF_0 -pg 1 -lvl 5 -x 1210 -y 620 -defaultsOSRD
+preplace inst Button_ctrl_0 -pg 1 -lvl 1 -x 120 -y 490 -defaultsOSRD
+preplace netloc Net1 1 1 1 220 260n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 30 340 230 340 540 340 860 500 1100J
+preplace netloc Net 1 0 5 20 330 240 330 550 330 870 510 1090J
+preplace netloc iBtn1_1 1 0 1 NJ 480
+preplace netloc EQ_0_led_test 1 2 4 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc Button_ctrl_0_oEn2 1 1 2 210J 60 530
+preplace netloc AXI_comb_0_led_test 1 3 3 NJ 140 NJ 140 NJ
+preplace netloc iBtn2_0_1 1 0 1 NJ 500
+preplace netloc EQ_3_m_axis_tdata 1 2 1 530 130n
+preplace netloc EQ_3_m_axis_tlast 1 2 1 570 170n
+preplace netloc EQ_3_m_axis_tvalid 1 2 1 560 150n
+preplace netloc AXI_comb_0_s_axis_tready 1 1 3 250 10 NJ 10 870
+preplace netloc iBtn3_0_1 1 0 1 NJ 520
+preplace netloc iBtn4_0_1 1 0 1 NJ 540
+preplace netloc AXI_pitch_shift_0_led_test 1 4 2 NJ 390 NJ
+preplace netloc Button_ctrl_0_oEn3 1 1 3 NJ 500 NJ 500 850
+preplace netloc AXI_ANF_0_led_test 1 5 1 NJ 630
+preplace netloc Button_ctrl_0_oEn4 1 1 4 NJ 520 NJ 520 NJ 520 1080
+preplace netloc axi_apb_bridge_0_APB_M2 1 0 2 NJ 140 NJ
+preplace netloc I2S_Receiver_0_m_axis 1 0 2 NJ 180 NJ
+preplace netloc AXI_pitch_shift_0_m_axis 1 4 1 1110 370n
+preplace netloc axi_apb_bridge_0_APB_M4 1 0 2 NJ 120 NJ
+preplace netloc AXI_ANF_0_m_axis 1 5 1 NJ 610
+preplace netloc ABP_S_anf_1 1 0 5 NJ 600 NJ 600 NJ 600 NJ 600 NJ
+preplace netloc axi_apb_bridge_0_APB_M 1 0 2 NJ 200 NJ
+preplace netloc axi_apb_bridge_0_APB_M3 1 0 2 NJ 160 NJ
+preplace netloc reverb_m_axis 1 3 1 880 100n
+preplace netloc APB_s_0_1 1 0 4 NJ 360 NJ 360 NJ 360 NJ
+levelinfo -pg 1 0 120 390 710 980 1210 1330
+pagesize -pg 1 -db -bbox -sgen -130 0 1450 720
+"
+}
+0

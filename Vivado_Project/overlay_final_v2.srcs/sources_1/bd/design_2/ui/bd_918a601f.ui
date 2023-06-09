@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.628261",
+   "Default View_TopLeft":"177,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port m_axis -pg 1 -lvl 6 -x 1920 -y 620 -defaultsOSRD
+preplace port clk -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port EN -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port s_axis_tvalid -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port s_axis_tlast -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port s_axis_tready -pg 1 -lvl 6 -x 1920 -y 990 -defaultsOSRD
+preplace port led_reverb -pg 1 -lvl 6 -x 1920 -y 870 -defaultsOSRD
+preplace portBus s_axis_tdata -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace inst AXI_comb_1 -pg 1 -lvl 1 -x 220 -y 370 -defaultsOSRD
+preplace inst AXI_comb_2 -pg 1 -lvl 1 -x 220 -y 120 -defaultsOSRD
+preplace inst AXI_comb_3 -pg 1 -lvl 1 -x 220 -y 590 -defaultsOSRD
+preplace inst AXI_lowpass_1 -pg 1 -lvl 2 -x 570 -y 390 -defaultsOSRD
+preplace inst AXI_lowpass_2 -pg 1 -lvl 2 -x 570 -y 140 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -x 1330 -y 450 -defaultsOSRD
+preplace inst AXI_lowpass_3 -pg 1 -lvl 2 -x 570 -y 610 -defaultsOSRD
+preplace inst AXI_comb_0 -pg 1 -lvl 5 -x 1740 -y 860 -defaultsOSRD
+preplace inst AXI_lowpass_0 -pg 1 -lvl 2 -x 570 -y 820 -defaultsOSRD
+preplace inst AXI_early_reflection_0 -pg 1 -lvl 4 -x 1330 -y 970 -defaultsOSRD
+preplace inst AXI_Allpass_0 -pg 1 -lvl 4 -x 1330 -y 580 -defaultsOSRD
+preplace inst AXI_ADD_4_0 -pg 1 -lvl 3 -x 930 -y 550 -defaultsOSRD
+preplace inst AXI_ADD_3_0 -pg 1 -lvl 5 -x 1740 -y 620 -defaultsOSRD
+preplace netloc AXI_lowpass_1_m_axis_tdata 1 2 1 740 380n
+preplace netloc xlconstant_0_dout 1 2 3 720 390 NJ 390 1520
+preplace netloc AXI_lowpass_2_m_axis_tdata 1 2 1 750 130n
+preplace netloc AXI_lowpass_3_m_axis_tdata 1 2 1 750 600n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 50 250 370 490 730 430 1080 740 1530
+preplace netloc Net 1 0 5 10 730 380 480 770 420 1100 670 1540
+preplace netloc Button_ctrl_0_oEn2 1 0 5 30 240 390 700 770 670 1090 680 1550
+preplace netloc EQ_3_m_axis_tdata 1 0 5 60 710 NJ 710 NJ 710 1120 710 1570
+preplace netloc EQ_3_m_axis_tvalid 1 0 5 20 910 NJ 910 NJ 910 1130 850 NJ
+preplace netloc EQ_3_m_axis_tlast 1 0 5 40 720 NJ 720 NJ 720 1110 830 NJ
+preplace netloc AXI_comb_0_s_axis_tready 1 4 2 1570 990 NJ
+preplace netloc AXI_comb_0_led_test 1 5 1 NJ 870
+preplace netloc AXI_early_reflection_0_m_axis_tdata 1 4 1 1560 650n
+preplace netloc AXI_Allpass_0_m_axis 1 4 1 N 570
+preplace netloc AXI_ADD_3_0_m_axis 1 5 1 NJ 620
+preplace netloc AXI_comb_3_m_axis 1 1 1 N 580
+preplace netloc AXI_comb_0_m_axis 1 1 5 400 730 NJ 730 NJ 730 NJ 730 1890
+preplace netloc AXI_comb_1_m_axis 1 1 1 N 360
+preplace netloc AXI_comb_2_m_axis 1 1 1 N 110
+preplace netloc AXI_ADD_4_0_m_axis 1 3 1 N 550
+preplace netloc AXI_lowpass_0_m_axis 1 2 1 760 490n
+levelinfo -pg 1 -10 220 570 930 1330 1740 1920
+pagesize -pg 1 -db -bbox -sgen -180 0 2060 1090
+"
+}
+0

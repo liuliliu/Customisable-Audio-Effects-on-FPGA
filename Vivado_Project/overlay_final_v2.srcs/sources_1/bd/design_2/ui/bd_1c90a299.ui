@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-76,-73",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port APB_S -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port APB_S1 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port APB_S2 -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port s_axis -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace port APB_S3 -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace port EN -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace port m_axis_tvalid -pg 1 -lvl 4 -x 790 -y 320 -defaultsOSRD
+preplace port m_axis_tlast -pg 1 -lvl 4 -x 790 -y 300 -defaultsOSRD
+preplace port m_axis_tready -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port led_eq -pg 1 -lvl 4 -x 790 -y 120 -defaultsOSRD
+preplace portBus m_axis_tdata -pg 1 -lvl 4 -x 790 -y 280 -defaultsOSRD
+preplace inst IIR0 -pg 1 -lvl 1 -x 130 -y 150 -defaultsOSRD
+preplace inst IIR1 -pg 1 -lvl 2 -x 350 -y 130 -defaultsOSRD
+preplace inst IIR2 -pg 1 -lvl 3 -x 630 -y 110 -defaultsOSRD
+preplace inst IIR3 -pg 1 -lvl 3 -x 630 -y 310 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 50 250 30 470
+preplace netloc Net 1 0 3 30 250 230 240 480
+preplace netloc Net1 1 0 3 20 260 240 250 490
+preplace netloc EQ_3_m_axis_tdata 1 3 1 NJ 280
+preplace netloc EQ_3_m_axis_tvalid 1 3 1 NJ 320
+preplace netloc EQ_3_m_axis_tlast 1 3 1 NJ 300
+preplace netloc AXI_comb_0_s_axis_tready 1 0 4 NJ 420 NJ 420 NJ 420 770
+preplace netloc EQ_0_led_test 1 3 1 NJ 120
+preplace netloc axi_apb_bridge_0_APB_M4 1 0 3 NJ 290 NJ 290 NJ
+preplace netloc EQ_0_m_axis 1 0 4 30 10 NJ 10 NJ 10 770
+preplace netloc I2S_Receiver_0_m_axis 1 0 3 NJ 270 250J 230 450J
+preplace netloc axi_apb_bridge_0_APB_M 1 0 3 NJ 20 NJ 20 490J
+preplace netloc axi_apb_bridge_0_APB_M3 1 0 2 NJ 40 240J
+preplace netloc EQ_1_m_axis 1 1 1 230 90n
+preplace netloc EQ_2_m_axis 1 2 1 460 120n
+preplace netloc axi_apb_bridge_0_APB_M2 1 0 1 NJ 130
+levelinfo -pg 1 0 130 350 630 790
+pagesize -pg 1 -db -bbox -sgen -150 0 960 440
+"
+}
+

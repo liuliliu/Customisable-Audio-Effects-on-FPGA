@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 22 18:56:53 2023
+# Process ID: 17036
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18644 D:\YANLIU\KULeuven\course\master\thesis\Project\overlay_final_v2\overlay_final_v2\overlay_final_v2.xpr
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/vivado.log
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/EQ/EQ.srcs/sources_1/new'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_Anf/ip_Anf.srcs/sources_1/new'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_pitch_shifting_real'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_apb_comb/ip_apb_comb.srcs/sources_1/new'. The path is contained within another repository.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.1/data/ip'.
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"namespace eval ::xilinx.com_interface_aximm_1.0 { source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/AXIMM/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/clock_signal/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_clock_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_clock_1.0 { source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/clock_signal/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/gt_outclk/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_gt_outclk_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_gt_outclk_1.0 { source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/gt_outclk/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/gt_usrclk/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_gt_usrclk_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_gt_usrclk_1.0 { source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/gt_usrclk/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/interrupt_signal/busdef.tcl} "
+    (in namespace eval "::xilinx.com_signal_interrupt_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_signal_interrupt_1.0 { source -notrace {D:/Xilinx/Vivado/2020.1/data/rsb/busdef/interrupt_signal/busdef.tcl} }"
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 22 18:57:21 2023...

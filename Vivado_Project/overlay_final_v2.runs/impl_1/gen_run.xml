@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1684096046">
+  <File Type="ROUTE-PWR" Name="design_2_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="design_2_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="design_2_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="design_2_wrapper_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="design_2_wrapper.msk"/>
+  <File Type="ROUTE-CLK" Name="design_2_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="design_2_wrapper.vdi"/>
+  <File Type="BG-BIT" Name="design_2_wrapper.bit"/>
+  <File Type="BG-DRC" Name="design_2_wrapper.drc"/>
+  <File Type="BG-BGN" Name="design_2_wrapper.bgn"/>
+  <File Type="BG-BIN" Name="design_2_wrapper.bin"/>
+  <File Type="BITSTR-RBT" Name="design_2_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="design_2_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="design_2_wrapper_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="design_2_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="design_2_wrapper.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="design_2_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="design_2_wrapper.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="design_2_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="design_2_wrapper.hwdef"/>
+  <File Type="PLACE-IO" Name="design_2_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="design_2_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="design_2_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="design_2_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="design_2_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="design_2_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="design_2_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="design_2_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="design_2_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="design_2_wrapper_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="design_2_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="design_2_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="design_2_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="design_2_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="design_2_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="design_2_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="design_2_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="design_2_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="design_2_wrapper_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="design_2_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="design_2_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="design_2_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="design_2_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="design_2_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="design_2_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="design_2_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="design_2_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="design_2_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="design_2_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="design_2_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="design_2_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="design_2_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="design_2_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="design_2_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="design_2_wrapper.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Project/our_overlay/i2s_receiver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/i2s_receiver.vhd"/>
+        <Attr Name="ImportTime" Val="1625941679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/i2s_transmitter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA-Audio-Project-master/src/rtl/i2s_transmitter.vhd"/>
+        <Attr Name="ImportTime" Val="1625941679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project/our_overlay/buffers.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/buffers.vhd"/>
+        <Attr Name="ImportTime" Val="1625941679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Button_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/Button_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1680503398"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_comb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_comb.v"/>
+        <Attr Name="ImportTime" Val="1679677831"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_lowpass.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_lowpass.v"/>
+        <Attr Name="ImportTime" Val="1679913088"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_early_reflection.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_early_reflection.v"/>
+        <Attr Name="ImportTime" Val="1680157404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_Allpass.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_Allpass.v"/>
+        <Attr Name="ImportTime" Val="1679898680"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_ADD_4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_ADD_4.v"/>
+        <Attr Name="ImportTime" Val="1679926568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_ADD_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_ADD_3.v"/>
+        <Attr Name="ImportTime" Val="1680157417"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/design_2.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/bd/design_2/design_2.bd"/>
+        <Attr Name="ImportTime" Val="1680509728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/hdl/design_2_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1680509730"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_ANF.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../overlay_EQ_reverb_pitch/overlay_EQ_reverb_pitch.srcs/sources_1/new/AXI_ANF.v"/>
+        <Attr Name="ImportTime" Val="1681822620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/APB_test.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/APB_test.v"/>
+        <Attr Name="ImportTime" Val="1680260144"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_ADD_2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_ADD_2.v"/>
+        <Attr Name="ImportTime" Val="1680155935"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_EQ.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_EQ.v"/>
+        <Attr Name="ImportTime" Val="1680507899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_buffer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../our_overlay/our_overlay.srcs/sources_1/new/AXI_buffer.v"/>
+        <Attr Name="ImportTime" Val="1678877547"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Project/flipflops.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../flipflops.v"/>
+        <Attr Name="ImportTime" Val="1678428331"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_2_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constr/PYNQ-Z2 v1.0.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA-Audio-Project-master/src/constr/PYNQ-Z2 v1.0.xdc"/>
+        <Attr Name="ImportTime" Val="1677512404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_EQ_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_iic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_apb_bridge_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_EQ_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_lowpass_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_EQ_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_EQ_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_ADD_4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_comb_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_comb_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_lowpass_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_comb_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_lowpass_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_pitch_shift_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_comb_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_lowpass_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Button_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_early_reflection_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_Allpass_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_I2S_Transmitter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_I2S_Receiver_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_Buffers_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_AXI_ADD_3_0_9"/>
+</GenRun>

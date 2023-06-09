@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May 25 21:49:58 2023
+# Process ID: 3524
+# Current directory: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16720 D:\YANLIU\KULeuven\course\master\thesis\Project\overlay_final_v2\overlay_final_v2\overlay_final_v2.xpr
+# Log file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/vivado.log
+# Journal file: D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/overlay_final_v2/overlay_final_v2.xpr
+update_compile_order -fileset sources_1
+save_project_as overlay_final_v3 D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3 -force
+import_files
+open_bd_design {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.srcs/sources_1/bd/design_2/design_2.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 effect/reverb/AXI_ADD_3_1
+endgroup
+set_property location {6.5 2328 427} [get_bd_cells effect/reverb/AXI_ADD_3_1]
+ipx::edit_ip_in_project -upgrade true -name AXI_ADD_3_v1_0_project -directory D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.tmp/AXI_ADD_3_v1_0_project d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 10 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project overlay_final_v3
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project AXI_ADD_3_v1_0_project
+current_project overlay_final_v3
+upgrade_ip [get_ips  design_2_AXI_ADD_3_1_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_2_AXI_ADD_3_1_0] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_intf_nets effect/reverb/AXI_ADD_3_0_m_axis] [get_bd_intf_nets effect/reverb/AXI_Allpass_0_m_axis] [get_bd_nets effect/reverb/AXI_early_reflection_0_m_axis_tdata] [get_bd_cells effect/reverb/AXI_ADD_3_0]
+set_property location {5 2105 614} [get_bd_cells effect/reverb/AXI_ADD_3_1]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_1/m_axis]
+update_compile_order -fileset sources_1
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_Allpass_0/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_1/s_axis]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins effect/reverb/AXI_ADD_3_1/APB_S]
+endgroup
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_ADD_3_1/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_1/rst]
+connect_bd_net [get_bd_pins effect/reverb/EN] [get_bd_pins effect/reverb/AXI_ADD_3_1/EN]
+connect_bd_net [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_1/s_axis_tdata_early]
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_1/s_axis_tdata_input]
+save_bd_design
+delete_bd_objs [get_bd_intf_nets APB_S_0_2] [get_bd_intf_ports APB_S_0]
+startgroup
+set_property -dict [list CONFIG.C_APB_NUM_SLAVES {3}] [get_bd_cells axi_apb_bridge_1]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins axi_apb_bridge_1/APB_M3] -boundary_type upper [get_bd_intf_pins effect/APB_S_1]
+assign_bd_address [get_bd_addr_segs {effect/AXI_pitch_shift_0/APB_s/apb effect/AXI_ANF_0/ABP_S/apb effect/reverb/AXI_ADD_3_1/APB_S/apb effect/EQ/IIR0/APB_S/apb axi_iic_0/S_AXI/Reg effect/EQ/IIR2/APB_S/apb effect/EQ/IIR1/APB_S/apb effect/EQ/IIR3/APB_S/apb }]
+validate_bd_design
+delete_bd_objs [get_bd_nets effect/reverb/AXI_early_reflection_0_m_axis_tdata] [get_bd_intf_nets effect/reverb/AXI_ADD_3_1_m_axis] [get_bd_intf_nets effect/reverb/AXI_Allpass_0_m_axis] [get_bd_intf_nets effect/reverb/Conn1] [get_bd_cells effect/reverb/AXI_ADD_3_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 effect/reverb/AXI_ADD_3_0
+endgroup
+set_property location {6 2017 576} [get_bd_cells effect/reverb/AXI_ADD_3_0]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/s_axis] [get_bd_intf_pins effect/reverb/AXI_Allpass_0/m_axis]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/APB_S]
+endgroup
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/clk] [get_bd_pins effect/reverb/AXI_comb_0/s_axis_tready]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_0/rst]
+disconnect_bd_net /effect/reverb/AXI_comb_0_s_axis_tready [get_bd_pins effect/reverb/AXI_ADD_3_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_ADD_3_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/EN] [get_bd_pins effect/reverb/AXI_ADD_3_0/EN]
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early] [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tdata]
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input]
+delete_bd_objs [get_bd_intf_nets APB_S_0_2] [get_bd_intf_ports APB_S_0]
+undo
+delete_bd_objs [get_bd_intf_pins effect/reverb/APB_S_0]
+delete_bd_objs [get_bd_intf_nets effect/Conn1] [get_bd_intf_pins effect/APB_S_1]
+delete_bd_objs [get_bd_intf_nets APB_S_0_2] [get_bd_intf_ports APB_S_0]
+connect_bd_intf_net [get_bd_intf_pins axi_apb_bridge_1/APB_M3] -boundary_type upper [get_bd_intf_pins effect/APB_S_2]
+assign_bd_address [get_bd_addr_segs {effect/EQ/IIR0/APB_S/apb effect/EQ/IIR2/APB_S/apb effect/EQ/IIR3/APB_S/apb effect/AXI_pitch_shift_0/APB_s/apb effect/reverb/AXI_ADD_3_0/APB_S/apb effect/AXI_ANF_0/ABP_S/apb axi_iic_0/S_AXI/Reg effect/EQ/IIR1/APB_S/apb }]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_project AXI_ADD_3_v1_0_project
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 11 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project overlay_final_v3
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project AXI_ADD_3_v1_0_project
+current_project overlay_final_v3
+upgrade_ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 [get_ips  design_2_AXI_ADD_3_0_10] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_2_AXI_ADD_3_0_10] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_intf_nets effect/reverb/AXI_ADD_3_0_m_axis] [get_bd_intf_nets effect/reverb/Conn1] [get_bd_intf_nets effect/reverb/AXI_Allpass_0_m_axis] [get_bd_nets effect/reverb/AXI_early_reflection_0_m_axis_tdata] [get_bd_cells effect/reverb/AXI_ADD_3_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 effect/reverb/AXI_ADD_3_0
+endgroup
+set_property location {6 2049 543} [get_bd_cells effect/reverb/AXI_ADD_3_0]
+set_property location {5 2086 574} [get_bd_cells effect/reverb/AXI_ADD_3_0]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/s_axis] [get_bd_intf_pins effect/reverb/AXI_Allpass_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/APB_S_1] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/APB_S]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_ADD_3_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_0/rst]
+connect_bd_net [get_bd_pins effect/reverb/EN] [get_bd_pins effect/reverb/AXI_ADD_3_0/EN]
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early] [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tdata]
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input]
+validate_bd_design
+assign_bd_address [get_bd_addr_segs {effect/EQ/IIR2/APB_S/apb effect/EQ/IIR3/APB_S/apb effect/AXI_pitch_shift_0/APB_s/apb effect/reverb/AXI_ADD_3_0/APB_S/apb effect/EQ/IIR0/APB_S/apb effect/EQ/IIR1/APB_S/apb effect/AXI_ANF_0/ABP_S/apb axi_iic_0/S_AXI/Reg }]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+current_project AXI_ADD_3_v1_0_project
+set_property core_revision 12 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 13 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project overlay_final_v3
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project AXI_ADD_3_v1_0_project
+current_project overlay_final_v3
+close_hw_manager
+upgrade_ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 [get_ips  design_2_AXI_ADD_3_0_11] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_2_AXI_ADD_3_0_11] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_intf_nets effect/reverb/AXI_ADD_3_0_m_axis] [get_bd_nets effect/reverb/AXI_early_reflection_0_m_axis_tdata] [get_bd_intf_nets effect/reverb/AXI_Allpass_0_m_axis] [get_bd_intf_nets effect/reverb/APB_S_1_1] [get_bd_cells effect/reverb/AXI_ADD_3_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 effect/reverb/AXI_ADD_3_0
+endgroup
+set_property location {5 1995 589} [get_bd_cells effect/reverb/AXI_ADD_3_0]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/s_axis] [get_bd_intf_pins effect/reverb/AXI_Allpass_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/APB_S_1] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/APB_S]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_ADD_3_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_0/rst]
+connect_bd_net [get_bd_pins effect/reverb/EN] [get_bd_pins effect/reverb/AXI_ADD_3_0/EN]
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early] [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tlast]
+undo
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early] [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tdata]
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input]
+assign_bd_address [get_bd_addr_segs {effect/AXI_ANF_0/ABP_S/apb effect/EQ/IIR2/APB_S/apb effect/EQ/IIR1/APB_S/apb effect/EQ/IIR3/APB_S/apb effect/EQ/IIR0/APB_S/apb effect/AXI_pitch_shift_0/APB_s/apb axi_iic_0/S_AXI/Reg effect/reverb/AXI_ADD_3_0/APB_S/apb }]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+set_property location {1 186 840} [get_bd_cells effect/reverb/AXI_comb_0]
+close [ open D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.srcs/sources_1/new/AX_BUFFER.v w ]
+add_files D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.srcs/sources_1/new/AX_BUFFER.v
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_0
+set_property location {3.5 1160 269} [get_bd_cells effect/reverb/AXI_buffer_0]
+set_property location {6 2020 1028} [get_bd_cells effect/reverb/AXI_buffer_0]
+set_property location {3.5 1196 988} [get_bd_cells effect/reverb/AXI_early_reflection_0]
+set_property location {5 1633 998} [get_bd_cells effect/reverb/AXI_buffer_0]
+set_property location {5 1582 994} [get_bd_cells effect/reverb/AXI_buffer_0]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_1
+set_property location {5 1648 1007} [get_bd_cells effect/reverb/AXI_buffer_0]
+delete_bd_objs [get_bd_nets effect/reverb/AXI_early_reflection_0_m_axis_tdata]
+disconnect_bd_net /effect/reverb/xlconstant_0_dout [get_bd_pins effect/reverb/AXI_early_reflection_0/m_axis_tready]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_early_reflection_0/m_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_0/s_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_buffer_0/m_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_1/s_axis]
+set_property location {6 1817 1024} [get_bd_cells effect/reverb/AXI_buffer_1]
+set_property location {4.5 1464 1003} [get_bd_cells effect/reverb/AXI_buffer_0]
+set_property location {6 1802 997} [get_bd_cells effect/reverb/AXI_buffer_1]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_2
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_buffer_2/s_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_1/m_axis]
+connect_bd_net [get_bd_pins effect/reverb/AXI_buffer_2/m_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early]
+connect_bd_net [get_bd_pins effect/reverb/AXI_buffer_2/m_axis_tready] [get_bd_pins effect/reverb/xlconstant_0/dout]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_0/rst]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_1/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_1/rst]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_2/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_2/rst]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_3
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tdata] [get_bd_pins effect/reverb/AXI_buffer_3/s_axis_tdata]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_4
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tlast] [get_bd_pins effect/reverb/AXI_buffer_3/s_axis_tlast]
+connect_bd_net [get_bd_pins effect/reverb/s_axis_tvalid] [get_bd_pins effect/reverb/AXI_buffer_3/s_axis_tvalid]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_3/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_3/rst]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_buffer_3/m_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_4/s_axis]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_5
+set_property location {5 1435 225} [get_bd_cells effect/reverb/AXI_buffer_5]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_4/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_4/rst]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_buffer_4/m_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_5/s_axis]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_5/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_5/rst]
+create_bd_cell -type module -reference AXI_buffer effect/reverb/AXI_buffer_6
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_buffer_6/s_axis] [get_bd_intf_pins effect/reverb/AXI_buffer_5/m_axis]
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_buffer_6/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_buffer_6/rst]
+disconnect_bd_net /effect/reverb/EQ_3_m_axis_tdata [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input]
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input] [get_bd_pins effect/reverb/AXI_buffer_6/m_axis_tdata]
+connect_bd_net [get_bd_pins effect/reverb/AXI_buffer_6/m_axis_tready] [get_bd_pins effect/reverb/xlconstant_0/dout]
+regenerate_bd_layout -hierarchy [get_bd_cells effect/reverb]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+current_project AXI_ADD_3_v1_0_project
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 14 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project overlay_final_v3
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project AXI_ADD_3_v1_0_project
+current_project overlay_final_v3
+upgrade_ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 [get_ips  design_2_AXI_ADD_3_0_12] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_2_AXI_ADD_3_0_12] -no_script -sync -force -quiet
+delete_bd_objs [get_bd_nets effect/reverb/AXI_buffer_2_m_axis_tdata] [get_bd_nets effect/reverb/AXI_buffer_6_m_axis_tdata] [get_bd_intf_nets effect/reverb/AXI_ADD_3_0_m_axis] [get_bd_intf_nets effect/reverb/AXI_Allpass_0_m_axis] [get_bd_intf_nets effect/reverb/APB_S_1_1] [get_bd_cells effect/reverb/AXI_ADD_3_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI_ADD_3:1.0 effect/reverb/AXI_ADD_3_0
+endgroup
+set_property location {5 1589 1225} [get_bd_cells effect/reverb/AXI_ADD_3_0]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/m_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/AXI_Allpass_0/m_axis] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/s_axis]
+connect_bd_intf_net [get_bd_intf_pins effect/reverb/APB_S_1] [get_bd_intf_pins effect/reverb/AXI_ADD_3_0/APB_S]
+connect_bd_net [get_bd_pins effect/reverb/AXI_ADD_3_0/clk] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early]
+undo
+connect_bd_net [get_bd_pins effect/reverb/clk] [get_bd_pins effect/reverb/AXI_ADD_3_0/clk]
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_0/EN]
+undo
+connect_bd_net [get_bd_pins effect/reverb/rst] [get_bd_pins effect/reverb/AXI_ADD_3_0/rst]
+connect_bd_net [get_bd_pins effect/reverb/EN] [get_bd_pins effect/reverb/AXI_ADD_3_0/EN]
+connect_bd_net [get_bd_pins effect/reverb/AXI_buffer_2/m_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_early]
+connect_bd_net [get_bd_pins effect/reverb/AXI_buffer_6/m_axis_tdata] [get_bd_pins effect/reverb/AXI_ADD_3_0/s_axis_tdata_input]
+save_bd_design
+assign_bd_address [get_bd_addr_segs {effect/EQ/IIR0/APB_S/apb effect/AXI_ANF_0/ABP_S/apb effect/EQ/IIR1/APB_S/apb effect/EQ/IIR2/APB_S/apb effect/reverb/AXI_ADD_3_0/APB_S/apb effect/AXI_pitch_shift_0/APB_s/apb effect/EQ/IIR3/APB_S/apb axi_iic_0/S_AXI/Reg }]
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.runs/impl_1/design_2_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+regenerate_bd_layout
+ipx::edit_ip_in_project -upgrade true -name AXI_pitch_shift_v1_0_project -directory D:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v3/overlay_final_v3.tmp/AXI_pitch_shift_v1_0_project d:/YANLIU/KULeuven/course/master/thesis/Project/overlay_final_v2/IP/ip_pitch_shifting_real/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project overlay_final_v3
+update_ip_catalog -rebuild -scan_changes
